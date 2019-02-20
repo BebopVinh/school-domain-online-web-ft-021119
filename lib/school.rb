@@ -12,7 +12,8 @@ class School
     @roster[grade]? @roster[grade] << name : @roster[grade] = [name]
   end
 
-  def grade
+  def grade(num)
+    @roster[num]
     
   end
   def self.roster
